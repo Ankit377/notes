@@ -1,1 +1,18 @@
+next app build command : - next build && next export	
 
+aws files update command
+
+sudo rm -rf out																									
+
+unzip out.zip																									
+
+pm2 ls																									
+
+pm2 restart 1																									
+
+http://13.233.209.117:3030/
+
+go to instance and click on securities  - enter ip in ssh and give access from any where.
+
+to connect ssh - go to the file folder and enter ssh -i "mepl.pem" ubuntu@ec2-13-233-209-117.ap-south-1.compute.amazonaws.com
+here ssh -i + file name + dns name 
