@@ -1,5 +1,7 @@
 different ways to writing function in javascript
 
+A) Factory functions
+
 1) function declaration
 
 function square(x){
@@ -21,3 +23,23 @@ return x*x;
 
 4) inline arrow funciton
 ( (x) => x*x )
+
+
+5) Generator function
+
+function* square(x){
+return x*x
+}
+
+
+B) Constructor functions
+
+
+1) New function
+
+const numberA = numberA,
+const numberB = numberB
+
+const sumFunction = new Funtion(numberA, numberB, 'return numberA + numberB');
+
+sumFunction(8,9) // 17
