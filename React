@@ -1,1 +1,23 @@
+different ways to writing function in javascript
 
+1) function declaration
+
+function square(x){
+return x*x;
+}
+
+
+2) Function Expression
+
+const square = function(x){
+return x*x
+}
+
+3) Arrow function Expression
+
+const square = (x) => {
+return x*x;
+}
+
+4) inline arrow funciton
+( (x) => x*x )
